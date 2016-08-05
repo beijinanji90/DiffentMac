@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2DE5B561D54753B00D27B0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE5B551D54753B00D27B0F /* AppDelegate.m */; };
+		A2DE5B591D54753B00D27B0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE5B581D54753B00D27B0F /* main.m */; };
+		A2DE5B5C1D54753B00D27B0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE5B5B1D54753B00D27B0F /* ViewController.m */; };
+		A2DE5B5E1D54753B00D27B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DE5B5D1D54753B00D27B0F /* Assets.xcassets */; };
+		A2DE5B611D54753B00D27B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DE5B5F1D54753B00D27B0F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2DE5B511D54753B00D27B0F /* Diffent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diffent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DE5B541D54753B00D27B0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2DE5B551D54753B00D27B0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2DE5B581D54753B00D27B0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2DE5B5A1D54753B00D27B0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2DE5B5B1D54753B00D27B0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2DE5B5D1D54753B00D27B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2DE5B601D54753B00D27B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2DE5B621D54753B00D27B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DE5B4E1D54753B00D27B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2DE5B481D54753B00D27B0F = {
+			isa = PBXGroup;
+			children = (
+				A2DE5B531D54753B00D27B0F /* Diffent */,
+				A2DE5B521D54753B00D27B0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DE5B521D54753B00D27B0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE5B511D54753B00D27B0F /* Diffent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DE5B531D54753B00D27B0F /* Diffent */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE5B541D54753B00D27B0F /* AppDelegate.h */,
+				A2DE5B551D54753B00D27B0F /* AppDelegate.m */,
+				A2DE5B5A1D54753B00D27B0F /* ViewController.h */,
+				A2DE5B5B1D54753B00D27B0F /* ViewController.m */,
+				A2DE5B5D1D54753B00D27B0F /* Assets.xcassets */,
+				A2DE5B5F1D54753B00D27B0F /* Main.storyboard */,
+				A2DE5B621D54753B00D27B0F /* Info.plist */,
+				A2DE5B571D54753B00D27B0F /* Supporting Files */,
+			);
+			path = Diffent;
+			sourceTree = "<group>";
+		};
+		A2DE5B571D54753B00D27B0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE5B581D54753B00D27B0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DE5B501D54753B00D27B0F /* Diffent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DE5B651D54753B00D27B0F /* Build configuration list for PBXNativeTarget "Diffent" */;
+			buildPhases = (
+				A2DE5B4D1D54753B00D27B0F /* Sources */,
+				A2DE5B4E1D54753B00D27B0F /* Frameworks */,
+				A2DE5B4F1D54753B00D27B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diffent;
+			productName = Diffent;
+			productReference = A2DE5B511D54753B00D27B0F /* Diffent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DE5B491D54753B00D27B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chenfenglong;
+				TargetAttributes = {
+					A2DE5B501D54753B00D27B0F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A2DE5B4C1D54753B00D27B0F /* Build configuration list for PBXProject "Diffent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2DE5B481D54753B00D27B0F;
+			productRefGroup = A2DE5B521D54753B00D27B0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DE5B501D54753B00D27B0F /* Diffent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DE5B4F1D54753B00D27B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE5B5E1D54753B00D27B0F /* Assets.xcassets in Resources */,
+				A2DE5B611D54753B00D27B0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DE5B4D1D54753B00D27B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE5B5C1D54753B00D27B0F /* ViewController.m in Sources */,
+				A2DE5B591D54753B00D27B0F /* main.m in Sources */,
+				A2DE5B561D54753B00D27B0F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2DE5B5F1D54753B00D27B0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DE5B601D54753B00D27B0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2DE5B631D54753B00D27B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A2DE5B641D54753B00D27B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2DE5B661D54753B00D27B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Diffent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koudai.Diffent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2DE5B671D54753B00D27B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Diffent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koudai.Diffent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DE5B4C1D54753B00D27B0F /* Build configuration list for PBXProject "Diffent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DE5B631D54753B00D27B0F /* Debug */,
+				A2DE5B641D54753B00D27B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DE5B651D54753B00D27B0F /* Build configuration list for PBXNativeTarget "Diffent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DE5B661D54753B00D27B0F /* Debug */,
+				A2DE5B671D54753B00D27B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DE5B491D54753B00D27B0F /* Project object */;
+}
